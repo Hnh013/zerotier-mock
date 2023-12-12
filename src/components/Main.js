@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import user_icon from '../media/User_Icon_01c147556c.webp';
+import zero_logo from '../media/Zero_Tier_Logo_Inverted_White_73e6fee0b9.webp'; 
 
 const Main = () => {
   return (
@@ -10,7 +12,8 @@ const Main = () => {
         </div>
         <div className="testimonial">
             <div className="logo">
-                <img src="./User_Icon_01c147556c.webp" height="40" width="40"/>
+                <img src={user_icon} className='profile-picture' alt="user profile" />
+                
             </div>
             <div className="content">
 
@@ -27,7 +30,7 @@ const Main = () => {
         </div>
         <div className="testimonial">
             <div className="logo">
-                <img src="./User_Icon_01c147556c.webp" height="40" width="40"/>
+                <img src={user_icon} className='profile-picture' alt="user profile" />
             </div>
             <div className="content">
 
@@ -44,7 +47,7 @@ const Main = () => {
         </div>
         <div className="testimonial">
             <div className="logo">
-                <img src="./User_Icon_01c147556c.webp" height="40" width="40"/>
+                <img src={user_icon} className='profile-picture' alt="user profile" />
             </div>
             <div className="content">
 
@@ -71,7 +74,7 @@ const Main = () => {
         <div className="pricing-cards">
             <div className="card">
                 <div className="logo">
-                    <img src="./Zero_Tier_Logo_Inverted_White_73e6fee0b9.webp" height="64" width="64"/>
+                    <img src={zero_logo} height="64" width="64" className='profile-picture' alt="user profile" />
                 </div>
                 <div className="heading" >Basic</div>
                 <div className="sub-heading"> For everyone</div>    
@@ -92,7 +95,7 @@ const Main = () => {
             </div>
             <div className="card">
                 <div className="logo">
-                    <img src="./Zero_Tier_Logo_Inverted_White_73e6fee0b9.webp" height="64" width="64"/>
+                    <img src={zero_logo} height="64" width="64" className='profile-picture' alt="user profile" />
                 </div>
                 <div className="heading" >Basic</div>
                 <div className="sub-heading"> For everyone</div>    
@@ -113,7 +116,7 @@ const Main = () => {
             </div>
             <div className="card">
                 <div className="logo">
-                    <img src="./Zero_Tier_Logo_Inverted_White_73e6fee0b9.webp" height="64" width="64"/>
+                    <img src={zero_logo} height="64" width="64" className='profile-picture' alt="user profile" />
                 </div>
                 <div className="heading" >Basic</div>
                 <div className="sub-heading"> For everyone</div>    
