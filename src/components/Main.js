@@ -12,7 +12,7 @@ const Main = () => {
         </div>
         <div className="testimonial">
             <div className="logo">
-                <img src={user_icon} className='profile-picture' alt="user profile" />
+                <img src={user_icon} className='profile-picture' alt="user profile" height="40" width="40" />
                 
             </div>
             <div className="content">
@@ -30,7 +30,7 @@ const Main = () => {
         </div>
         <div className="testimonial">
             <div className="logo">
-                <img src={user_icon} className='profile-picture' alt="user profile" />
+                <img src={user_icon} className='profile-picture' alt="user profile" height="40" width="40" />
             </div>
             <div className="content">
 
@@ -47,7 +47,7 @@ const Main = () => {
         </div>
         <div className="testimonial">
             <div className="logo">
-                <img src={user_icon} className='profile-picture' alt="user profile" />
+                <img src={user_icon} className='profile-picture' alt="user profile" height="40" width="40" />
             </div>
             <div className="content">
 
